@@ -1,0 +1,1659 @@
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Yuriy Syrota <rasta@renome.rovno.ua>, 2001.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2008.
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
+# Re. <ted.korostiled@gmail.com>, 2012.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2014, 2016, 2017.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: procman\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/lingmo-system-monitor/iss"
+"ues\n"
+"POT-Creation-Date: 2023-09-25 09:52+0000\n"
+"PO-Revision-Date: 2023-09-25 19:01+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.12.0\n"
+"X-Project-Style: lingmo\n"
+
+#: lingmo-system-monitor.desktop.in:3 lingmo-system-monitor.appdata.xml.in:6
+#: data/interface.ui:6 src/application.cpp:394 src/interface.cpp:416
+msgid "System Monitor"
+msgstr "Системний монітор"
+
+#: lingmo-system-monitor.desktop.in:4 lingmo-system-monitor-kde.desktop.in:4
+#: src/interface.cpp:417
+msgid "View current processes and monitor system state"
+msgstr "Перегляд поточних процесів та контроль стану системи"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: lingmo-system-monitor.desktop.in:16
+msgid ""
+"Monitor;System;Process;CPU;Memory;Network;History;Usage;Performance;Task;"
+"Manager;Activity;"
+msgstr ""
+"Монітор;Система;Процес;Процесор;Пам'ять;Мережа;Історія;Використання;Завдання;"
+"Менеджер;діяльність;Monitor;System;Process;CPU;Memory;Network;History;Usage;"
+"Performance;Task;Manager;Activity;"
+
+#: lingmo-system-monitor-kde.desktop.in:3 src/application.cpp:454
+msgid "Lingmo System Monitor"
+msgstr "Системний монітор Lingmo"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: lingmo-system-monitor-kde.desktop.in:16
+msgid "Monitor;System;Process;CPU;Memory;Network;History;Usage;"
+msgstr "Монітор;Система;Процес;Процесор;Пам'ять;Мережа;Історія;Використання;"
+
+#: lingmo-system-monitor.appdata.xml.in:7
+msgid "View and manage system resources"
+msgstr "Переглядати та керувати системними ресурсами"
+
+#: lingmo-system-monitor.appdata.xml.in:9
+msgid ""
+"System Monitor is a process viewer and system monitor with an attractive, "
+"easy-to-use interface."
+msgstr ""
+"Системний монітор — переглядач процесів з приємним і зручним інтерфейсом."
+
+#: lingmo-system-monitor.appdata.xml.in:13
+msgid ""
+"System Monitor can help you find out what applications are using the "
+"processor or the memory of your computer, can manage the running "
+"applications, force stop processes not responding, and change the state or "
+"priority of existing processes."
+msgstr ""
+"Системний монітор може допомогти з'ясувати, які програми використовують "
+"процесор і пам'ять вашого комп'ютера, може організовувати запущені програми, "
+"примусово зупиняти процеси і міняти стани або пріоритети наявних процесів."
+
+#: lingmo-system-monitor.appdata.xml.in:19
+msgid ""
+"The resource graphs feature shows you a quick overview of what is going on "
+"with your computer displaying recent network, memory and processor usage."
+msgstr ""
+"Графіки ресурсів показують швидкий огляд того, що відбувається на вашому "
+"комп'ютері, зокрема використання мережі, пам'яті, процесора."
+
+#: lingmo-system-monitor.appdata.xml.in:27
+msgid "Process list view"
+msgstr "Огляд переліку процесів"
+
+#: lingmo-system-monitor.appdata.xml.in:31
+msgid "Resources overview"
+msgstr "Огляд ресурсів"
+
+#: lingmo-system-monitor.appdata.xml.in:35
+msgid "File Systems view"
+msgstr "Огляд файлової системи"
+
+#: lingmo-system-monitor.appdata.xml.in:44
+msgid "The Lingmo Project"
+msgstr "Проєкт Lingmo"
+
+#: org.lingmo.lingmo-system-monitor.policy.in.in:11
+msgid "Kill process"
+msgstr "Вбити процес"
+
+#: org.lingmo.lingmo-system-monitor.policy.in.in:12
+msgid "Privileges are required to control other users’ processes"
+msgstr "Потрібні права, щоб опанувати процеси інших користувачів"
+
+#: org.lingmo.lingmo-system-monitor.policy.in.in:22
+msgid "Renice process"
+msgstr "Змінити люб'язність процесу"
+
+#: org.lingmo.lingmo-system-monitor.policy.in.in:23
+msgid "Privileges are required to change the priority of processes"
+msgstr "Потрібні права, щоб змінити пріоритет процесів"
+
+#: data/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Загальні"
+
+#: data/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "Показати довідку"
+
+#: data/help-overlay.ui:23
+msgctxt "shortcut window"
+msgid "Open menu"
+msgstr "Відкрити меню"
+
+#: data/help-overlay.ui:29
+msgctxt "shortcut window"
+msgid "Show preferences"
+msgstr "Показати налаштування"
+
+#: data/help-overlay.ui:37
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Клавіатурні скорочення"
+
+#: data/help-overlay.ui:44
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Вийти"
+
+#: data/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Пошук"
+
+#: data/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Show Processes"
+msgstr "Показати процеси"
+
+#: data/help-overlay.ui:62
+msgctxt "shortcut window"
+msgid "Show Resources"
+msgstr "Показати ресурси"
+
+#: data/help-overlay.ui:68
+msgctxt "shortcut window"
+msgid "Show File Systems"
+msgstr "Показати файлові системи"
+
+#: data/help-overlay.ui:75
+msgctxt "shortcut window"
+msgid "Refresh"
+msgstr "Оновити"
+
+#: data/help-overlay.ui:82
+msgctxt "shortcut window"
+msgid "Processes"
+msgstr "Процеси"
+
+#: data/help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Show dependencies"
+msgstr "Показати залежності"
+
+#: data/help-overlay.ui:94
+msgctxt "shortcut window"
+msgid "Show process properties"
+msgstr "Показати властивості процесу"
+
+#: data/help-overlay.ui:101
+msgctxt "shortcut window"
+msgid "Memory maps"
+msgstr "Прив'язки пам'яті"
+
+#: data/help-overlay.ui:108
+msgctxt "shortcut window"
+msgid "Open files"
+msgstr "Відкрити файли"
+
+#: data/help-overlay.ui:114
+msgctxt "shortcut window"
+msgid "Send stop signal"
+msgstr "Надіслати сигнал зупинення"
+
+#: data/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Send continue signal"
+msgstr "Надіслати сигнал продовження"
+
+#: data/help-overlay.ui:126
+msgctxt "shortcut window"
+msgid "Send Terminate signal"
+msgstr "Надіслати сигнал переривання"
+
+#: data/help-overlay.ui:132
+msgctxt "shortcut window"
+msgid "Send Kill signal"
+msgstr "Надіслати сигнал «Вбити»"
+
+#: data/interface.ui:54 data/preferences.ui:12
+msgid "Processes"
+msgstr "Процеси"
+
+#: data/interface.ui:86 src/procdialogs.cpp:150 src/proctable.cpp:136
+msgid "_End Process"
+msgid_plural "_End Processes"
+msgstr[0] "_Припинити процес"
+msgstr[1] "_Припинити процеси"
+msgstr[2] "_Припинити процеси"
+
+#: data/interface.ui:96
+msgid "Show process properties"
+msgstr "Показати властивості процесу"
+
+#: data/interface.ui:117 data/preferences.ui:109
+msgid "Resources"
+msgstr "Ресурси"
+
+#: data/interface.ui:159 data/preferences.ui:161 src/interface.cpp:264
+#: src/procproperties.cpp:77
+msgid "CPU"
+msgstr "Процесор"
+
+#: data/interface.ui:190 src/interface.cpp:302 src/procproperties.cpp:71
+#: src/proctable.cpp:359
+msgid "Memory"
+msgstr "Пам'ять"
+
+#: data/interface.ui:201 src/interface.cpp:314
+msgid "Swap"
+msgstr "Swap"
+
+#: data/interface.ui:218 data/preferences.ui:183
+msgid "Memory and Swap"
+msgstr "Оперативна та резервна пам'ять"
+
+#: data/interface.ui:249 src/interface.cpp:343
+msgid "Receiving"
+msgstr "Отримання"
+
+#: data/interface.ui:259
+msgid "Total Received"
+msgstr "Всього отримано"
+
+#: data/interface.ui:269 src/interface.cpp:361
+msgid "Sending"
+msgstr "Надсилання"
+
+#: data/interface.ui:279
+msgid "Total Sent"
+msgstr "Всього надіслано"
+
+#: data/interface.ui:296 data/preferences.ui:215
+msgid "Network"
+msgstr "Мережа"
+
+#: data/interface.ui:315 data/preferences.ui:262
+msgid "File Systems"
+msgstr "Файлові системи"
+
+#: data/lsof.ui:6
+msgctxt "Window title for Search for Open Files dialog"
+msgid "Search for Open Files"
+msgstr "Пошук відкритих файлів"
+
+#: data/lsof.ui:30
+msgid "Filter files by name"
+msgstr "Відсіяти файли за назвою"
+
+#: data/lsof.ui:38
+msgid "Case insensitive"
+msgstr "Без урахування регістру"
+
+#: data/menus.ui:7 data/menus.ui:62
+msgctxt "Menu item to Open Search for Open Files dialog"
+msgid "Search for Open Files"
+msgstr "Пошук відкритих файлів"
+
+#: data/menus.ui:13 data/menus.ui:68 data/preferences.ui:6
+msgid "Preferences"
+msgstr "Параметри"
+
+#: data/menus.ui:17 data/menus.ui:72
+msgid "Help"
+msgstr "Довідка"
+
+#: data/menus.ui:21 data/menus.ui:76
+msgid "Keyboard Shortcuts"
+msgstr "Клавіатурні скорочення"
+
+#: data/menus.ui:25 data/menus.ui:80
+msgid "About System Monitor"
+msgstr "Про «Системний монітор»"
+
+#: data/menus.ui:33
+msgid "_Refresh"
+msgstr "_Оновити"
+
+#: data/menus.ui:39
+msgid "_Active Processes"
+msgstr "_Активні процеси"
+
+#: data/menus.ui:44
+msgid "A_ll Processes"
+msgstr "_Усі процеси"
+
+#: data/menus.ui:49
+msgid "M_y Processes"
+msgstr "_Мої процеси"
+
+#: data/menus.ui:56
+msgid "Show _Dependencies"
+msgstr "Показати _залежності"
+
+#: data/menus.ui:88
+msgid "_Properties"
+msgstr "В_ластивості"
+
+#: data/menus.ui:94
+msgid "_Memory Maps"
+msgstr "Відбиття _пам'яті"
+
+#. Translators: this means 'Files that are open' (open is not a verb here)
+#: data/menus.ui:98
+msgid "Open _Files"
+msgstr "Відкриті _файли"
+
+#: data/menus.ui:104
+msgid "_Change Priority"
+msgstr "_Змінити пріоритет"
+
+#: data/menus.ui:107 src/util.cpp:173
+msgid "Very High"
+msgstr "Надвисокий"
+
+#: data/menus.ui:112 src/util.cpp:175
+msgid "High"
+msgstr "Високий"
+
+#: data/menus.ui:117 src/util.cpp:177
+msgid "Normal"
+msgstr "Звичайний"
+
+#: data/menus.ui:122 src/util.cpp:179
+msgid "Low"
+msgstr "Низький"
+
+#: data/menus.ui:127 src/util.cpp:181
+msgid "Very Low"
+msgstr "Наднизький"
+
+#: data/menus.ui:134
+msgid "Custom"
+msgstr "Власний"
+
+#: data/menus.ui:141
+msgid "Set _Affinity"
+msgstr "Встановити _близькість"
+
+#: data/menus.ui:147
+msgid "_Stop"
+msgstr "З_упинити"
+
+#: data/menus.ui:152
+msgid "_Continue"
+msgstr "Про_довжити"
+
+#: data/menus.ui:157
+msgid "_Terminate"
+msgstr "П_ерервати"
+
+#: data/menus.ui:162
+msgid "_Kill"
+msgstr "_Знищити"
+
+#: data/openfiles.ui:6
+msgid "Open Files"
+msgstr "Відкриті файли"
+
+#: data/preferences.ui:16 data/preferences.ui:113 data/preferences.ui:266
+msgid "Behavior"
+msgstr "Поведінка"
+
+#: data/preferences.ui:20 data/preferences.ui:117 data/preferences.ui:270
+msgid "_Update Interval in Seconds"
+msgstr "Інтервал _оновлення у секундах"
+
+#: data/preferences.ui:34
+msgid "Enable _Smooth Refresh"
+msgstr "Увімкнути _плавне оновлення"
+
+#: data/preferences.ui:47
+msgid "Alert Before Ending or _Killing Processes"
+msgstr "Попереджувати перед за_вершенням чи вбивством процесу"
+
+#: data/preferences.ui:60
+msgid "_Divide CPU Usage by CPU Count"
+msgstr "_Розподілити використання процесора на їхню кількість"
+
+#: data/preferences.ui:73
+msgid "Show Memory in IEC"
+msgstr "Показати пам'ять в IEC"
+
+#: data/preferences.ui:87 data/preferences.ui:298
+msgid "Information Fields"
+msgstr "Інформаційні поля"
+
+#: data/preferences.ui:88
+msgid "Process information shown in list:"
+msgstr "Інформація про процеси зі списку:"
+
+#: data/preferences.ui:131
+msgid "_Chart Data Points"
+msgstr "_Кількість точок на діаграмі"
+
+#: data/preferences.ui:146
+msgid "Draw Charts as S_mooth Graphs"
+msgstr "Малювати діаграми як _гладкі графіки"
+
+#: data/preferences.ui:166
+msgid "_Draw CPU Chart as Stacked Area Chart"
+msgstr "_Малювати діаграму процесора як багатоярусну діаграму"
+
+#: data/preferences.ui:187
+msgid "Show Memory and Swap in IEC"
+msgstr "Показати звичайну і резервну пам'ять в IEC"
+
+#: data/preferences.ui:200
+msgid "Show Memory in Logarithmic Scale"
+msgstr "Показати пам'ять у логарифмічній шкалі"
+
+#: data/preferences.ui:219
+msgid "_Show Network Speed in Bits"
+msgstr "_Показати швидкість мережі у бітах"
+
+#: data/preferences.ui:232
+msgid "Set Network Totals _Unit Separately"
+msgstr "Встановити _одиницю даних мережі окремо"
+
+#: data/preferences.ui:245
+msgid "Show Network _Totals in Bits"
+msgstr "Показати за_гальні дані мережі у бітах"
+
+#: data/preferences.ui:284
+msgid "Show _All File Systems"
+msgstr "Показати ус_і файлові системи"
+
+#: data/preferences.ui:299
+msgid "File system information shown in list"
+msgstr "Показана у списку інформація про файлову систему"
+
+#: data/renice.ui:15 src/procdialogs.cpp:166 src/setaffinity.cpp:305
+msgid "_Cancel"
+msgstr "_Скасувати"
+
+#: data/renice.ui:16
+msgid "Change _Priority"
+msgstr "Змінити _пріоритет"
+
+#: data/renice.ui:39
+msgid "_Nice value:"
+msgstr "_Рівень люб'язності:"
+
+#: data/renice.ui:69
+msgid ""
+"<small><i><b>Note:</b> The priority of a process is given by its nice value. "
+"A lower nice value corresponds to a higher priority.</i></small>"
+msgstr ""
+"<small><i><b>Зауважте:</b>Рівень люб'язності пов'язаний з пріоритетом "
+"процесу. Менший рівень люб'язності відповідає за вищий рівень процесу.</i></"
+"small>"
+
+#: src/application.cpp:437
+msgid "A simple process and system monitor."
+msgstr "Простий монітор процесів та системи."
+
+#: src/argv.cpp:22
+msgid "Show the Processes tab"
+msgstr "Показати вкладку «Процеси»"
+
+#: src/argv.cpp:28
+msgid "Show the Resources tab"
+msgstr "Показати вкладку «Ресурси»"
+
+#: src/argv.cpp:34
+msgid "Show the File Systems tab"
+msgstr "Показати вкладку «Файлові системи»"
+
+#: src/argv.cpp:39
+msgid "Show the application’s version"
+msgstr "Показати версію програми"
+
+#: src/disks.cpp:393 src/memmaps.cpp:355
+msgid "Device"
+msgstr "Пристрій"
+
+#: src/disks.cpp:394
+msgid "Directory"
+msgstr "Каталог"
+
+#: src/disks.cpp:395 src/legacy/gsm_color_button.c:588 src/openfiles.cpp:269
+msgid "Type"
+msgstr "Тип"
+
+#: src/disks.cpp:396
+msgid "Total"
+msgstr "Всього"
+
+#: src/disks.cpp:397
+msgid "Free"
+msgstr "Вільно"
+
+#: src/disks.cpp:398
+msgid "Available"
+msgstr "Доступно"
+
+#: src/disks.cpp:399
+msgid "Used"
+msgstr "Використано"
+
+#. Translators: color picker title, %s is CPU, Memory, Swap, Receiving, Sending
+#: src/interface.cpp:229
+#, c-format
+msgid "Pick a Color for “%s”"
+msgstr "Підібрати колір для «%s»"
+
+#: src/interface.cpp:266
+#, c-format
+msgid "CPU%d"
+msgstr "ЦП%d"
+
+#: src/interface.cpp:428
+msgid "translator-credits"
+msgstr ""
+"Юрій Сирота\n"
+"Кирило Полежаєв <polezhajev@ukr.net>\n"
+"Максим Дзюманенко <dziumanenko@gmail.com>\n"
+"Daniel Korostil <ted.korostiled@gmail.com>"
+
+#. xgettext: ? stands for unknown
+#: src/legacy/e_date.c:175
+msgid "?"
+msgstr "?"
+
+#: src/legacy/e_date.c:183
+msgid "Today %l∶%M %p"
+msgstr "Сьогодні %H:%M"
+
+#: src/legacy/e_date.c:194
+msgid "Yesterday %l∶%M %p"
+msgstr "Вчора %H:%M"
+
+#: src/legacy/e_date.c:209
+msgid "%a %l∶%M %p"
+msgstr "%a %H:%M"
+
+#: src/legacy/e_date.c:218
+msgid "%b %d %l∶%M %p"
+msgstr "%d %b %H:%M"
+
+#: src/legacy/e_date.c:220
+msgid "%b %d %Y"
+msgstr "%d %b %Y"
+
+#: src/legacy/gsm_color_button.c:564
+msgid "Fraction"
+msgstr "Частка"
+
+#. TRANSLATORS: description of the pie color picker's (mem, swap) filled percentage property
+#: src/legacy/gsm_color_button.c:566
+msgid "Percentage full for pie color pickers"
+msgstr "Відсоток повний для секторної кольорової діаграми"
+
+#: src/legacy/gsm_color_button.c:573
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/legacy/gsm_color_button.c:574
+msgid "The title of the color selection dialog"
+msgstr "Заголовок вікна вибору кольору"
+
+#: src/legacy/gsm_color_button.c:575 src/legacy/gsm_color_button.c:613
+msgid "Pick a Color"
+msgstr "Виберіть колір"
+
+#: src/legacy/gsm_color_button.c:581
+msgid "Current Color"
+msgstr "Поточний колір"
+
+#: src/legacy/gsm_color_button.c:582
+msgid "The selected color"
+msgstr "Вибраний колір"
+
+#: src/legacy/gsm_color_button.c:589
+msgid "Type of color picker"
+msgstr "Тип вибирання кольору"
+
+#: src/legacy/gsm_color_button.c:636
+msgid "Click to set graph colors"
+msgstr "Клацніть для зміни кольорів графіку"
+
+#. Translators: loadgraphs y axis percentage labels: 0 %, 50%, 100%
+#: src/load-graph.cpp:100 src/load-graph.cpp:110
+#, c-format
+msgid "%.0f %%"
+msgstr "%.0f %%"
+
+#: src/load-graph.cpp:159
+#, c-format
+msgid "%u hr"
+msgid_plural "%u hrs"
+msgstr[0] "%u год"
+msgstr[1] "%u год"
+msgstr[2] "%u год"
+
+#: src/load-graph.cpp:160
+#, c-format
+msgid "%u min"
+msgid_plural "%u mins"
+msgstr[0] "%u хв."
+msgstr[1] "%u хв."
+msgstr[2] "%u хв."
+
+#: src/load-graph.cpp:162
+#, c-format
+msgid "%u sec"
+msgid_plural "%u secs"
+msgstr[0] "%u с"
+msgstr[1] "%u с"
+msgstr[2] "%u с"
+
+#. Update label
+#. Translators: CPU usage percentage label: 95.7%
+#: src/load-graph.cpp:569
+#, c-format
+msgid "%.1f%%"
+msgstr "%.1f%%"
+
+#: src/load-graph.cpp:596
+msgid "not available"
+msgstr "недоступно"
+
+#. xgettext: "540MiB (53 %) of 1.0 GiB" or "540MB (53 %) of 1.0 GB"
+#: src/load-graph.cpp:601
+#, c-format
+msgid "%s (%.1f%%) of %s"
+msgstr "%s (%.1f%%) з %s"
+
+#. xgettext: Used cache string, e.g.: "Cache 2.4GiB" or "Cache 2.4GB"
+#: src/load-graph.cpp:606
+#, c-format
+msgid "Cache %s"
+msgstr "Кеш %s"
+
+#: src/lsof.cpp:116
+#, c-format
+msgid "%d open file"
+msgid_plural "%d open files"
+msgstr[0] "%d відкритий файл"
+msgstr[1] "%d відкритих файла"
+msgstr[2] "%d відкритих файлів"
+
+#: src/lsof.cpp:118
+#, c-format
+msgid "%d matching open file"
+msgid_plural "%d matching open files"
+msgstr[0] "%d збіг"
+msgstr[1] "%d збіги"
+msgstr[2] "%d збігів"
+
+#: src/lsof.cpp:227
+msgid "Process"
+msgstr "Процеси"
+
+#: src/lsof.cpp:238
+msgid "PID"
+msgstr "PID"
+
+#: src/lsof.cpp:247 src/memmaps.cpp:333
+msgid "Filename"
+msgstr "Назва файла"
+
+#. xgettext: virtual memory start
+#: src/memmaps.cpp:335
+msgid "VM Start"
+msgstr "Початок ВП"
+
+#. xgettext: virtual memory end
+#: src/memmaps.cpp:337
+msgid "VM End"
+msgstr "Кінець ВП"
+
+#. xgettext: virtual memory syze
+#: src/memmaps.cpp:339
+msgid "VM Size"
+msgstr "Розмір ВП"
+
+#: src/memmaps.cpp:340
+msgid "Flags"
+msgstr "Прапорці"
+
+#. xgettext: virtual memory offset
+#: src/memmaps.cpp:342
+msgid "VM Offset"
+msgstr "Зсув ВП"
+
+#. xgettext: memory that has not been modified since
+#. it has been allocated
+#: src/memmaps.cpp:345
+msgid "Private clean"
+msgstr "Приватна чиста"
+
+#. xgettext: memory that has been modified since it
+#. has been allocated
+#: src/memmaps.cpp:348
+msgid "Private dirty"
+msgstr "Приватна змінена"
+
+#. xgettext: shared memory that has not been modified
+#. since it has been allocated
+#: src/memmaps.cpp:351
+msgid "Shared clean"
+msgstr "Спільна чиста"
+
+#. xgettext: shared memory that has been modified
+#. since it has been allocated
+#: src/memmaps.cpp:354
+msgid "Shared dirty"
+msgstr "Спільна змінена"
+
+#: src/memmaps.cpp:356
+msgid "Inode"
+msgstr "Вузол I"
+
+#: src/memmaps.cpp:474
+msgid "Memory Maps"
+msgstr "Відбиття пам'яті"
+
+#: src/memmaps.cpp:488
+#, c-format
+msgid "_Memory maps for process “%s” (PID %u):"
+msgstr "Відбиття _пам'яті процесу «%s» (PID %u):"
+
+#: src/openfiles.cpp:39
+msgid "file"
+msgstr "файл"
+
+#: src/openfiles.cpp:42
+msgid "pipe"
+msgstr "канал"
+
+#: src/openfiles.cpp:45
+msgid "IPv6 network connection"
+msgstr "мережеве з'єднання IPv6"
+
+#: src/openfiles.cpp:48
+msgid "IPv4 network connection"
+msgstr "мережеве з'єднання IPv4"
+
+#: src/openfiles.cpp:51
+msgid "local socket"
+msgstr "локальний сокет"
+
+#: src/openfiles.cpp:54
+msgid "unknown type"
+msgstr "невідомий тип"
+
+#. Translators: "FD" here means "File Descriptor". Please use
+#. a very short translation if possible, and at most
+#. 2-3 characters for it to be able to fit in the UI.
+#: src/openfiles.cpp:268
+msgid "FD"
+msgstr "FD"
+
+#: src/openfiles.cpp:270
+msgid "Object"
+msgstr "Об'єкт"
+
+#: src/openfiles.cpp:359
+#, c-format
+msgid "_Files opened by process “%s” (PID %u):"
+msgstr "_Файли, що відкриті процесом «%s» (PID %u):"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:5
+#| msgid ""
+#| "Main window size and position in the form (width, height, xpos, ypos)"
+msgid "Main window size in the form (width, height)"
+msgstr "Розмір головного вікна у формі (ширина, висота)"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:11
+msgid "Main Window should open maximized"
+msgstr "Головне вікно слід відкрити розгорнутим"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:18
+msgid "Show process dependencies in tree form"
+msgstr "Показувати залежності процесів у вигляді дерева"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:25
+msgid "Solaris mode for CPU percentage"
+msgstr "Режим Solaris для показника використання процесору"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:27
+msgid ""
+"If TRUE, system-monitor operates in “Solaris mode” where a task’s CPU usage "
+"is divided by the total number of CPUs. Otherwise, it operates in “Irix "
+"mode”."
+msgstr ""
+"Якщо зазначено, системний монітор працює у режимі «Solaris», у якому "
+"використання процесору ділиться на загальну кількість процесорів. У іншому "
+"випадку монітор працюватиме у режимі «Irix»."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:34
+msgid "Show memory in IEC"
+msgstr "Показати пам'ять в IEC"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:41
+msgid "Enable/Disable smooth refresh"
+msgstr "Увімкнути/вимкнути плавне оновлення"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:48
+msgid "Show warning dialog when killing processes"
+msgstr "Показувати вікно попередження при вбиванні процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:55
+msgid "Time in milliseconds between updates of the process view"
+msgstr "Період оновлення огляду процесів (у мілісекундах)"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:61
+msgid "Time in milliseconds between updates of the graphs"
+msgstr "Період оновлення графіків (у мілісекундах)"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:67
+msgid "Whether information about all file systems should be displayed"
+msgstr "Чи буде показуватись інформація про усі файлові системи"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:69
+msgid ""
+"Whether to display information about all file systems (including types like "
+"“autofs” and “procfs”). Useful for getting a list of all currently mounted "
+"file systems."
+msgstr ""
+"Чи буде показана інформація про усі файлові системи (враховуючи такі типи "
+"файлових систем, як «autofs» та «procfs»). Може бути корисно для одержання "
+"списку усіх змонтованих файлових систем."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:76
+msgid "Time in milliseconds between updates of the devices list"
+msgstr "Період оновлення переліку пристроїв (у мілісекундах)"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:82
+msgid "Time amount of data points in the resource graphs"
+msgstr "Проміжок часу для точок даних на графіках ресурсів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:92
+msgid "Determines which processes to show."
+msgstr "Визначає, які процеси показувати."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:102
+msgid "Saves the currently viewed tab"
+msgstr "Зберігає поточну активну вкладку"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:125
+msgid "CPU colors"
+msgstr "Кольори процесорів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:127
+msgid "Each entry is in the format (CPU#, Hexadecimal color value)"
+msgstr "Кожен запис у форматі (CPU#, шістнадцяткове колірне значення)"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:134
+msgid "Default graph memory color"
+msgstr "Типовий колір графіку пам'яті"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:141
+msgid "Default graph swap color"
+msgstr "Типовий колір графіку свопінгу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:148
+msgid "Default graph incoming network traffic color"
+msgstr "Типовий колір графіку вхідного трафіку мережі"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:155
+msgid "Default graph outgoing network traffic color"
+msgstr "Типовий колір графіку вхідного трафіку мережі"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:162
+msgid "Show network traffic in bits"
+msgstr "Показати мережевий трафік у бітах"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:169
+msgid "Set network totals unit separately"
+msgstr "Встановити одиницю даних мережі окремо"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:176
+msgid "Show network totals in bits"
+msgstr "Показати загальні дані мережі у бітах"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:183
+msgid "Show memory in logarithmic scale"
+msgstr "Показати пам'ять у логарифмічній шкалі"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:185
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:194
+msgid ""
+"If TRUE, system-monitor shows the CPU chart as a stacked area chart instead "
+"of a line chart."
+msgstr ""
+"Якщо вказано, діаграму процесора буде показано як багатоярусну діаграму "
+"замість лінійної."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:192
+msgid "Show CPU chart as stacked area chart"
+msgstr "Показати діаграму процесора як багатоярусну діаграму"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:201
+msgid ""
+"Show CPU, Memory, and Network charts as smooth graphs using Bezier curves"
+msgstr ""
+"Показувати діаграми процесора, пам'яті і мережі як гладкі графіки за "
+"допомогою кривих Безьє"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:203
+msgid ""
+"If TRUE, system-monitor shows the CPU, Memory, and Network charts as "
+"smoothed graphs, otherwise as line charts."
+msgstr ""
+"Якщо має значення TRUE, діаграми для процесора, пам'яті та мережі буде "
+"показано як згладжені графіки. Якщо має значення FALSE, буде показано "
+"звичайні кусково-лінійні графіки."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:210
+msgid "Show memory and swap in IEC"
+msgstr "Показати звичайну і резервну пам'ять в IEC"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:224
+msgid "Process view sort column"
+msgstr "Стовпчик впорядкування переліку процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:231
+msgid "Process view columns order"
+msgstr "Порядок стовпчиків перегляду процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:238
+msgid "Process view sort order"
+msgstr "Порядок впорядкування переліку процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:245
+msgid "Width of process “Name” column"
+msgstr "Ширина стовпчика назви процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:252
+msgid "Show process “Name” column on startup"
+msgstr "Показувати під час запуску стовпчик назв процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:259
+msgid "Width of process “User” column"
+msgstr "Ширина стовпчика власника процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:266
+msgid "Show process “User” column on startup"
+msgstr "Показувати під час запуску стовпчик власника процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:273
+msgid "Width of process “Status” column"
+msgstr "Ширина стовпчика стану процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:280
+msgid "Show process “Status” column on startup"
+msgstr "Показувати під час запуску стовпчик стану процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:287
+msgid "Width of process “Virtual Memory” column"
+msgstr "Ширина стовпчика віртуальної пам'яті процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:294
+msgid "Show process “Virtual Memory” column on startup"
+msgstr "Показувати під час запуску стовпчик віртуальної пам'яті процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:301
+msgid "Width of process “Resident Memory” column"
+msgstr "Ширина стовпчика резидентної пам'яті процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:308
+msgid "Show process “Resident Memory” column on startup"
+msgstr "Показувати під час запуску стовпчик резидентної пам'яті"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:315
+msgid "Width of process “Writable Memory” column"
+msgstr "Ширина стовпчика доступної для запису пам'яті"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:322
+msgid "Show process “Writable Memory” column on startup"
+msgstr ""
+"Показувати під час запуску стовпчик пам'яті процесу доступної для запису"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:329
+msgid "Width of process “Shared Memory” column"
+msgstr "Ширина стовпчика спільної пам'яті процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:336
+msgid "Show process “Shared Memory” column on startup"
+msgstr "Показувати під час запуску стовпчик спільної пам'яті процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:343
+msgid "Width of process “X Server Memory” column"
+msgstr "Ширина стовпчика процесу пам'яті сервера X"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:350
+msgid "Show process “X Server Memory” column on startup"
+msgstr "Показувати під час запуску стовпчик використання пам'яті сервера X"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:357
+msgid "Width of process “CPU %” column"
+msgstr "Ширина стовпчика завантаження ЦП"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:364
+msgid "Show process “CPU %” column on startup"
+msgstr "Показувати під час запуску стовпчик використання процесору."
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:371
+msgid "Width of process “CPU Time” column"
+msgstr "Ширина стовпчика часу зайнятості процесора процесом"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:378
+msgid "Show process “CPU Time” column on startup"
+msgstr "Показувати під час запуску стовпчик часу процесора"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:385
+msgid "Width of process “Started” column"
+msgstr "Ширина стовпчика часу запуску процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:392
+msgid "Show process “Started” column on startup"
+msgstr "Показувати під час запуску стовпчик часу запуску процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:399
+msgid "Width of process “Nice” column"
+msgstr "Ширина стовпчика люб'язності процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:406
+msgid "Show process “Nice” column on startup"
+msgstr "Показувати під час запуску стовпчик значення люб'язності до процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:413
+msgid "Width of process “ID” column"
+msgstr "Ширина стовпчика ідентифікатора процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:420
+msgid "Show process “ID” column on startup"
+msgstr "Показувати під час запуску стовпчик ідентифікатора процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:427
+msgid "Width of process “SELinux Security Context” column"
+msgstr "Ширина стовпчика контексту процесу SELinux"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:433
+msgid "Show process “SELinux Security Context” column on startup"
+msgstr ""
+"Показувати під час запуску стовпчик контекстів безпеки процесів SELinux"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:440
+msgid "Width of process “Command Line” column"
+msgstr "Ширина стовпчика командної ліній процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:447
+msgid "Show process “Command Line” column on startup"
+msgstr "Показувати під час запуску стовпчик командної лінії процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:454
+msgid "Width of process “Memory” column"
+msgstr "Ширина стовпчика пам'яті процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:461
+msgid "Show process “Memory” column on startup"
+msgstr "Показувати під час запуску стовпчик пам'яті процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:468
+msgid "Width of process “Waiting Channel” column"
+msgstr "Ширина стовпчика очікуваного каналу для процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:475
+msgid "Show process “Waiting Channel” column on startup"
+msgstr "Показувати під час запуску стовпчик очікуваного каналу для процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:482
+msgid "Width of process “Control Group” column"
+msgstr "Ширина стовпчика групи контрою для процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:489
+msgid "Show process “Control Group” column on startup"
+msgstr "Показувати під час запуску стовпчик групи контрою для процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:496
+msgid "Width of process “Unit” column"
+msgstr "Ширина стовпчика одиниці процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:503
+msgid "Show process “Unit” column on startup"
+msgstr "Показувати під час запуску стовпчик одиниці процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:510
+msgid "Width of process “Session” column"
+msgstr "Ширина стовпчика сеансу процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:517
+msgid "Show process “Session” column on startup"
+msgstr "Показувати під час запуску стовпчик сеансу процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:524
+msgid "Width of process “Seat” column"
+msgstr "Ширина стовпчика місце процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:531
+msgid "Show process “Seat” column on startup"
+msgstr "Показувати під час запуску стовпчик місце процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:538
+msgid "Width of process “Owner” column"
+msgstr "Ширина стовпчика власника процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:545
+msgid "Show process “Owner” column on startup"
+msgstr "Показувати під час запуску стовпчик власника процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:552
+msgid "Width of process “Disk read total” column"
+msgstr "Ширина стовпчика «Читання з диска (загалом)»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:559
+msgid "Show process “Disk read total” column on startup"
+msgstr "Показувати під час запуску стовпчик «Читання з диска (загалом)»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:566
+msgid "Width of process “Disk write total” column"
+msgstr "Ширина стовпчика «Запис на диск (загалом)»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:573
+msgid "Show process “Disk write total” column on startup"
+msgstr "Показувати під час запуску стовпчик «Запис на диск (загалом)»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:580
+msgid "Width of process “Disk read” column"
+msgstr "Ширина стовпчика «Читання з диска»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:587
+msgid "Show process “Disk read” column on startup"
+msgstr "Показувати під час запуску стовпчик «Читання з диска»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:594
+msgid "Width of process “Disk write” column"
+msgstr "Ширина стовпчика «Запис на диск»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:601
+msgid "Show process “Disk write” column on startup"
+msgstr "Показувати під час запуску стовпчик «Запис на диск»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:608
+msgid "Width of process “Priority” column"
+msgstr "Ширина стовпчика пріоритет процесу"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:615
+msgid "Show process “Priority” column on startup"
+msgstr "Показувати під час запуску стовпчик пріоритет процесів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:626
+msgid "Disk view sort column"
+msgstr "Стовпчик впорядкування переліку дисків"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:633
+msgid "Disk view sort order"
+msgstr "Порядок впорядкування переліку дисків"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:640
+msgid "Disk view columns order"
+msgstr "Порядок стовпчиків перегляду дисків"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:647
+msgid "Width of disk view “Device” column"
+msgstr "Ширина стовпчика «Пристрій»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:654
+msgid "Show disk view “Device” column on startup"
+msgstr "Показувати під час запуску стовпчик «Пристрій»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:661
+msgid "Width of disk view “Directory” column"
+msgstr "Ширина стовпчика «Каталог»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:668
+msgid "Show disk view “Directory” column on startup"
+msgstr "Показувати під час запуску стовпчик «Каталог»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:675
+msgid "Width of disk view “Type” column"
+msgstr "Ширина стовпчика «Тип»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:682
+msgid "Show disk view “Type” column on startup"
+msgstr "Показувати під час запуску стовпчик «Тип»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:689
+msgid "Width of disk view “Total” column"
+msgstr "Ширина стовпчика «Всього»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:696
+msgid "Show disk view “Total” column on startup"
+msgstr "Показувати під час запуску стовпчик «Всього»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:703
+msgid "Width of disk view “Free” column"
+msgstr "Ширина стовпчика «Вільно»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:710
+msgid "Show disk view “Free” column on startup"
+msgstr "Показувати під час запуску стовпчик «Вільно»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:717
+msgid "Width of disk view “Available” column"
+msgstr "Ширина стовпчика «Доступно»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:724
+msgid "Show disk view “Available” column on startup"
+msgstr "Показувати під час запуску стовпчик «Доступно»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:731
+msgid "Width of disk view “Used” column"
+msgstr "Ширина стовпчика «Використано»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:738
+msgid "Show disk view “Used” column on startup"
+msgstr "Показувати під час запуску стовпчик «Використано»"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:748
+msgid "Memory map sort column"
+msgstr "Стовпчик впорядкування карти пам'яті"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:755
+msgid "Memory map sort order"
+msgstr "Порядок впорядкування карти пам'яті"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:764
+msgid "Open files sort column"
+msgstr "Відкрити стовпчики впорядкування файлів"
+
+#: src/org.lingmo.lingmo-system-monitor.gschema.xml.in:771
+msgid "Open files sort order"
+msgstr "Відкрити порядок впорядкування файлів"
+
+#: src/prefsdialog.cpp:145
+msgid "Icon"
+msgstr "Піктограма"
+
+#: src/procactions.cpp:79
+#, c-format
+msgid ""
+"Cannot change the priority of process with PID %d to %d.\n"
+"%s"
+msgstr ""
+"Не вдалось змінити пріоритет процесу з PID %d на %d.\n"
+"%s"
+
+#: src/procactions.cpp:168
+#, c-format
+msgid ""
+"Cannot kill process with PID %d with signal %d.\n"
+"%s"
+msgstr ""
+"Не вдалось убити процес з PID %d за допомогою сигналу %d.\n"
+"%s"
+
+#. xgettext: primary alert message for killing single process
+#: src/procdialogs.cpp:88
+#, c-format
+msgid "Are you sure you want to kill the selected process “%s” (PID: %u)?"
+msgstr "Знищити вибраний процес «%s» (PID: %u)?"
+
+#. xgettext: primary alert message for ending single process
+#: src/procdialogs.cpp:95
+#, c-format
+msgid "Are you sure you want to end the selected process “%s” (PID: %u)?"
+msgstr "Припинити вибраний процес «%s» (PID: %u)?"
+
+#. SIGSTOP
+#. xgettext: primary alert message for stopping single process
+#: src/procdialogs.cpp:102
+#, c-format
+msgid "Are you sure you want to stop the selected process “%s” (PID: %u)?"
+msgstr "Зупинити вибраний процес «%s» (PID: %u)?"
+
+#. xgettext: primary alert message for killing multiple processes
+#: src/procdialogs.cpp:114
+#, c-format
+msgid "Are you sure you want to kill the selected process?"
+msgid_plural "Are you sure you want to kill the %d selected processes?"
+msgstr[0] "Знищити %d вибраний процес?"
+msgstr[1] "Знищити %d вибраних процеси?"
+msgstr[2] "Знищити %d вибраних процесів?"
+
+#. xgettext: primary alert message for ending multiple processes
+#: src/procdialogs.cpp:121
+#, c-format
+msgid "Are you sure you want to end the selected process?"
+msgid_plural "Are you sure you want to end the %d selected processes?"
+msgstr[0] "Припинити %d вибраний процес?"
+msgstr[1] "Припинити %d вибраних процеси?"
+msgstr[2] "Припинити %d вибраних процесів?"
+
+#. SIGSTOP
+#. xgettext: primary alert message for stopping multiple processes
+#: src/procdialogs.cpp:128
+#, c-format
+msgid "Are you sure you want to stop the selected process?"
+msgid_plural "Are you sure you want to stop the %d selected processes?"
+msgstr[0] "Зупинити %d вибраний процес?"
+msgstr[1] "Припинити %d вибраних процеси?"
+msgstr[2] "Припинити %d вибраних процесів?"
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:139
+msgid ""
+"Killing a process may destroy data, break the session or introduce a "
+"security risk. Only unresponsive processes should be killed."
+msgstr ""
+"Вбиваючи процес, ви можете знищити ваші дані, перервати робочий сеанс або "
+"створити загрозу безпеці. Вбивати треба лише процеси, які не відповідають на "
+"запити."
+
+#: src/procdialogs.cpp:142
+msgid "_Kill Process"
+msgid_plural "_Kill Processes"
+msgstr[0] "_Знищити процес"
+msgstr[1] "_Знищити процеси"
+msgstr[2] "_Знищити процеси"
+
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:147
+msgid ""
+"Ending a process may destroy data, break the session or introduce a security "
+"risk. Only unresponsive processes should be ended."
+msgstr ""
+"Завершуючи процес, ви можете знищити ваші дані, перервати робочий сеанс або "
+"створити загрозу безпеці. Завершувати треба лише процеси, які не "
+"відповідають на запити."
+
+#. SIGSTOP
+#. xgettext: secondary alert message
+#: src/procdialogs.cpp:155
+msgid ""
+"Stopping a process may destroy data, break the session or introduce a "
+"security risk. Only unresponsive processes should be stopped."
+msgstr ""
+"Зупинення процесу, ви можете знищити ваші дані, перервати робочий сеанс або "
+"створити загрозу безпеці. Зупиняти треба лише процеси, які не відповідають "
+"на запити."
+
+#: src/procdialogs.cpp:158
+msgid "_Stop Process"
+msgid_plural "_Stop Processes"
+msgstr[0] "З_упинити процес"
+msgstr[1] "З_упинити процес"
+msgstr[2] "З_упинити процес"
+
+#: src/procdialogs.cpp:253
+#, c-format
+msgid "Change Priority of Process “%s” (PID: %u)"
+msgstr "Змінити пріоритет процесу «%s» (PID: %u)"
+
+#: src/procdialogs.cpp:256
+#, c-format
+msgid "Change Priority of the selected process"
+msgid_plural "Change Priority of %d selected processes"
+msgstr[0] "Змінити пріоритет %d вибраного процесу"
+msgstr[1] "Змінити пріоритет %d вибраних процесів"
+msgstr[2] "Змінити пріоритет %d вибраних процесів"
+
+#: src/procproperties.cpp:50 src/procproperties.cpp:84
+#: src/procproperties.cpp:87 src/util.cpp:540 src/util.cpp:587
+msgid "N/A"
+msgstr "Н/Д"
+
+#: src/procproperties.cpp:68 src/proctable.cpp:344
+msgid "Process Name"
+msgstr "Назва процесу"
+
+#: src/procproperties.cpp:69 src/proctable.cpp:345
+msgid "User"
+msgstr "Користувач"
+
+#: src/procproperties.cpp:70 src/proctable.cpp:346
+msgid "Status"
+msgstr "Стан"
+
+#: src/procproperties.cpp:72 src/proctable.cpp:347
+msgid "Virtual Memory"
+msgstr "Віртуальна пам'ять"
+
+#: src/procproperties.cpp:73 src/proctable.cpp:348
+msgid "Resident Memory"
+msgstr "Резидентна пам'ять"
+
+#: src/procproperties.cpp:74 src/proctable.cpp:349
+msgid "Writable Memory"
+msgstr "Записувана пам'ять"
+
+#: src/procproperties.cpp:75 src/proctable.cpp:350
+msgid "Shared Memory"
+msgstr "Спільна пам'ять"
+
+#: src/procproperties.cpp:79 src/proctable.cpp:353
+msgid "CPU Time"
+msgstr "Час ЦП"
+
+#: src/procproperties.cpp:80 src/proctable.cpp:354
+msgid "Started"
+msgstr "Запущено"
+
+#: src/procproperties.cpp:81 src/proctable.cpp:355
+msgid "Nice"
+msgstr "Люб'язність"
+
+#: src/procproperties.cpp:82 src/proctable.cpp:373
+msgid "Priority"
+msgstr "Пріоритет"
+
+#: src/procproperties.cpp:83 src/proctable.cpp:356
+msgid "ID"
+msgstr "ID"
+
+#: src/procproperties.cpp:84 src/proctable.cpp:357
+msgid "Security Context"
+msgstr "Контекст безпеки"
+
+#: src/procproperties.cpp:85 src/proctable.cpp:358
+msgid "Command Line"
+msgstr "Командний рядок:"
+
+#. xgettext: combined noun, the function the process is waiting in, see wchan ps(1)
+#: src/procproperties.cpp:86 src/proctable.cpp:361
+msgid "Waiting Channel"
+msgstr "Канал очікування"
+
+#: src/procproperties.cpp:87 src/proctable.cpp:362
+msgid "Control Group"
+msgstr "Групи контролю"
+
+#: src/procproperties.cpp:209
+#, c-format
+msgid "%s (PID %u)"
+msgstr "%s (PID %u)"
+
+#: src/proctable.cpp:351
+msgid "X Server Memory"
+msgstr "Пам'ять сервера X"
+
+#: src/proctable.cpp:352
+#, no-c-format
+msgid "% CPU"
+msgstr "% CPU"
+
+#: src/proctable.cpp:363
+msgid "Unit"
+msgstr "Одиниця"
+
+#: src/proctable.cpp:364
+msgid "Session"
+msgstr "Сеанс"
+
+#. TRANSLATORS: Seat = i.e. the physical seat the session of the process belongs to, only
+#. for multi-seat environments. See http://en.wikipedia.org/wiki/Multiseat_configuration
+#: src/proctable.cpp:367
+msgid "Seat"
+msgstr "Місце"
+
+#: src/proctable.cpp:368
+msgid "Owner"
+msgstr "Власник"
+
+#: src/proctable.cpp:369
+msgid "Disk read total"
+msgstr "Читання з диска (загалом)"
+
+#: src/proctable.cpp:370
+msgid "Disk write total"
+msgstr "Запис на диск (загалом)"
+
+#: src/proctable.cpp:371
+msgid "Disk read"
+msgstr "Читання з диска"
+
+#: src/proctable.cpp:372
+msgid "Disk write"
+msgstr "Запис на диск"
+
+#: src/setaffinity.cpp:298
+msgid "Set Affinity"
+msgstr "Встановити близькість"
+
+#: src/setaffinity.cpp:310
+msgid "_Apply"
+msgstr "З_астосувати"
+
+#: src/setaffinity.cpp:347
+#, c-format
+msgid "Select CPUs \"%s\" (PID %u) is allowed to run on:"
+msgstr "Вибрати процесори, на яких можна запускати «%s» (PID %u):"
+
+#. Create toggle all check box
+#: src/setaffinity.cpp:381
+msgid "Run on all CPUs"
+msgstr "Запустити на усіх процесорах"
+
+#. Set check box label value to CPU [1..2048]
+#: src/setaffinity.cpp:400
+#, c-format
+msgid "CPU %d"
+msgstr "ЦП %d"
+
+#: src/util.cpp:34
+msgid "Running"
+msgstr "Запущено"
+
+#: src/util.cpp:38
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: src/util.cpp:42
+msgid "Zombie"
+msgstr "Зомбі"
+
+#: src/util.cpp:46
+msgid "Uninterruptible"
+msgstr "Безперервний"
+
+#: src/util.cpp:50
+msgid "Sleeping"
+msgstr "Очікування"
+
+#. xgettext: weeks, days
+#: src/util.cpp:108
+#, c-format
+msgid "%uw%ud"
+msgstr "%uw%ud"
+
+#. xgettext: days, hours (0 -> 23)
+#: src/util.cpp:112
+#, c-format
+msgid "%ud%02uh"
+msgstr "%ud%02uh"
+
+#. xgettext: hours (0 -> 23), minutes, seconds
+#: src/util.cpp:116
+#, c-format
+msgid "%u:%02u:%02u"
+msgstr "%u:%02u:%02u"
+
+#. xgettext: minutes, seconds, centiseconds
+#: src/util.cpp:119
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%u:%02u.%02u"
+
+#: src/util.cpp:188
+msgid "Very High Priority"
+msgstr "Дуже високий пріоритет"
+
+#: src/util.cpp:190
+msgid "High Priority"
+msgstr "Високий пріоритет"
+
+#: src/util.cpp:192
+msgid "Normal Priority"
+msgstr "Звичайний пріоритет"
+
+#: src/util.cpp:194
+msgid "Low Priority"
+msgstr "Низький пріоритет"
+
+#: src/util.cpp:196
+msgid "Very Low Priority"
+msgstr "Дуже низький пріоритет"
+
+#. xgettext: rate, 10MiB/s or 10Mbit/s
+#: src/util.cpp:820
+#, c-format
+msgid "%s/s"
+msgstr "%s/с"
+
+#~ msgid "Search processes and users"
+#~ msgstr "Пошук за процесами і користувачами"
+
+#~| msgid "_End Process"
+#~| msgid_plural "_End Processes"
+#~ msgid "_Terminate Process"
+#~ msgstr "П_ерервати процес"
+
+#~ msgid "Graphs"
+#~ msgstr "Графіки"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "Отримано некоректні дані кольору\n"
+
+#~ msgid "Note:"
+#~ msgstr "Примітка:"
+
+#~ msgid ""
+#~ "The priority of a process is given by its nice value. A lower nice value "
+#~ "corresponds to a higher priority."
+#~ msgstr ""
+#~ "Рівень люб'язності пов'язаний з пріоритетом процесу. Менший рівень "
+#~ "люб'язності відповідає за вищий рівень процесу."
+
+#~ msgctxt "shortcut window"
+#~ msgid "Send End signal"
+#~ msgstr "Надіслати сигнал завершення"
+
+#~ msgid "_End"
+#~ msgstr "При_пинити"
+
+#~ msgid "Width of process “Total disk read” column"
+#~ msgstr "Ширина стовпчика «Читання з диска (загалом)»"
+
+#~ msgid "Show process “Total disk read” column on startup"
+#~ msgstr "Показувати під час запуску стовпчик «Читання з диска (загалом)»"
+
+#~ msgid "Width of process “Total disk write” column"
+#~ msgstr "Ширина стовпчика «Запис на диск (загалом)»"
+
+#~ msgid "Show process “Total disk write” column on startup"
+#~ msgstr "Показувати під час запуску стовпчик «Запис на диск (загалом)»"
+
+#~| msgid "_Update interval in seconds:"
+#~ msgid "_Update Interval in Seconds:"
+#~ msgstr "Інтервал _оновлення у секундах:"
+
+#~ msgid "Show _all file systems"
+#~ msgstr "Показати _усі файлові системи"
+
+#~ msgid "CPU History"
+#~ msgstr "Історія ЦП"
+
+#~ msgid "System Monitor Preferences"
+#~ msgstr "Параметри системного монітора"

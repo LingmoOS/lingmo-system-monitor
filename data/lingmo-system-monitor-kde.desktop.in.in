@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Lingmo System Monitor
+Comment=View current processes and monitor system state
+TryExec=lingmo-system-monitor
+Exec=lingmo-system-monitor
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=@APP_ID@
+Terminal=false
+Type=Application
+StartupNotify=true
+StartupWMClass=lingmo-system-monitor
+Categories=Lingmo;GTK;System;Monitor;
+OnlyShowIn=KDE;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Monitor;System;Process;CPU;Memory;Network;History;Usage;

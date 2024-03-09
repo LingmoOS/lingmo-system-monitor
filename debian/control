@@ -1,0 +1,38 @@
+Source: lingmo-system-monitor
+Section: lingmo
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends: appstream-util <!nocheck>,
+               debhelper-compat (= 13),
+               desktop-file-utils <!nocheck>,
+               dh-sequence-gnome,
+               docbook-to-man,
+               gsettings-desktop-schemas-dev,
+               itstool,
+               libadwaita-1-dev (>= 1.4.0),
+               libglib2.0-dev,
+               libgtk-4-dev (>= 4.12.0),
+               libgtkmm-4.0-dev,
+               libgtop2-dev (>= 2.41.2),
+               librsvg2-dev,
+               libsystemd-dev [linux-any],
+               libxml2-dev,
+               meson (>= 0.57.0),
+               pkgconf,
+               polkitd,
+Rules-Requires-Root: no
+Standards-Version: 4.6.2
+Vcs-Browser: https://github.com/LingmoOS/lingmo-system-monitor
+Vcs-Git: https://github.com/LingmoOS/lingmo-system-monitor.git
+Homepage: https://github.com/LingmoOS/lingmo-system-monitor
+
+Package: lingmo-system-monitor
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: gvfs
+Suggests: pkexec
+Description: Process viewer and system resource monitor for Lingmo
+ This package allows you to graphically view and manipulate the running
+ processes on your system.  It also provides an overview of available
+ resources such as CPU and memory.
